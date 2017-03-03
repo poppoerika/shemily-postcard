@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(to bottom right,  #34ACAF, white);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+
+body, input, textarea, select {
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 13px;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    float: right
+}
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color:  #692DAC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+
+div.company-name {
+    margin-left: 80px;
+    margin-top: 13px;
+    float: left;
+    font-family: 'Cookie', cursive;
+    font-size: 36px;
+}
+
+h2 {
+	text-align: center;
+}
+
+div#contactDiv {
+	clear: both;
+	padding-top:40px;
+}
+
+form {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+fieldset {
+	border-color:  #692DAC;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea {
+    overflow-y:scroll;
+    height: 100px;
+}
+
+.required:before { 
+	content:" *"; 
+}
+
+footer ul {
+    margin-top: 50px;
+}
+
+#company-copy {
+    font-size: 24px;
+    margin-top: 60px;
+}

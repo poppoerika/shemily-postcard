@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This web page displays our contact form.">
+	<meta name="keywords" content="postcard, shemily, contact, contact form, contact us">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="author" content="Erika Tharp">
+	<meta name="copyright" content="Shemily's Postcard"> 
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="company-name">Shemily's Postcard</div>
+			<ul>
+			  <li><a href="http://nova.umuc.edu/~ct386d09/finalweb/index.html">Home</a></li>
+			  <li><a href="http://nova.umuc.edu/~ct386d09/finalweb/message.html">Message Card</a></li>
+			  <li><a href="http://nova.umuc.edu/~ct386d09/finalweb/design.html">Design Card</a></li>
+			  <li><a href="http://nova.umuc.edu/~ct386d09/finalweb/contact.html">Contact</a></li>
+			  <li><a href="http://nova.umuc.edu/~ct386d09/finalweb/about.html">About</a></li>
+			</ul>
+	</header>
+	<!--This contact form is referenced from https://www.w3schools.com/css/css_form.asp and edit by Erika Tharp.-->
+	<div id="contactDiv">
+		<h2>Contact Us</h2>
+		<form name="contactForm" onsubmit="validateForm()">
+			<fieldset>
+				<legend>Your Information:</legend>
+				<div class="required">
+					<label>Name</label>
+					<input type="text" id="fullname" name="fullname" tabindex="1">
+				</div>
+				<label>Country</label>
+				<select id="country" name="country" tabindex="2">
+				  <option value="australia" tabindex="3">Japan</option>
+				  <option value="canada" tabindex="4">Canada</option>
+				  <option value="usa" tabindex="5">USA</option>
+				</select>
+				<label>Gender</label><br>
+				<input type="radio" name="gender" value="male" checked tabindex="6"> Male
+		  		<input type="radio" name="gender" value="female" tabindex="7"> Female
+		  		<input type="radio" name="gender" value="other" tabindex="8"> Other<br><br>
+		  		<div class="required">
+					<label>Message</label>
+					<textarea rows="5" cols="30" name="message" id="message" tabindex="9">Leave your message here...</textarea>
+				</div>
+				<input type="submit" value="Submit" id="submitBtn" onmouseover="capitalize()" onmouseout="normal()">
+			</fieldset>
+		</form>
+	</div>
+	<footer>
+		<div class="company-name" id="company-copy">&copy; 2017 Shemily's Postcard</div>
+		<ul>
+			  <li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fnova.umuc.edu%2F~ct386d09%2Ffinalweb%2Fcontact.html"> HTML</a></li>
+			  <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fnova.umuc.edu%2F~ct386d09%2Ffinalweb%2Fcss%2Fstyles.css"> CSS1</a></li>
+			  <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fnova.umuc.edu%2F~ct386d09%2Ffinalweb%2Fcss%2Fcontact.css"> CSS2</a></li>
+			  <li><a href="privacypolicy.htm">Privacy Statement</a></li>
+			  <li><a href="http://nova.umuc.edu/~ct386d09/finalweb/fandq.html">FAQ</a></li>
+			</ul>
+	</footer>
+	<script type="text/javascript" src="validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+body {
+    background: linear-gradient(to bottom right,  #34ACAF, white);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+section#refSection h1 {
+    text-align: center;
+}
+
+section#refSection{
+    padding-top: 30px;
+}
+#refDiv {
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+#refDiv p {
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 13px;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    float: right
+}
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color:  #692DAC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+div.gsc-control-cse {
+    margin:0;
+    padding: 0;
+    width: 83%;
+    clear: both;
+}
+div#search {
+    clear: both;
+    background: white;
+    height: 100%;
+    background-size: cover;
+}
+
+
+
+table {
+    clear: both;
+    margin-left: 80px;
+    padding: 0;
+    border: 0;
+}
+
+table tr td#box {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 7.5pt;
+}
+
+table tr td#searchBtn {
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 7.5pt; 
+    padding-top:4px;
+}
+
+table tr td form {
+    margin:0px; margin-top:4px;
+}
+
+table tr td a#link1 {
+    text-decoration:none; color:gray;
+}
+
+table tr td a#link2 {
+    text-decoration:none; 
+    color:gray;
+}
+
+table tr td a#link2 span {
+    color: #606060;
+}
+
+div.company-name {
+    margin-left: 80px;
+    margin-top: 13px;
+    float: left;
+    font-family: 'Cookie', cursive;
+    font-size: 36px;
+}
+
+section {
+    font-family: 'Open Sans Condensed', sans-serif;
+    clear: both;
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+}
+
+div.gallery {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+div.picture {
+    width: 200px;
+    height: 400px; 
+    margin: 40px; 
+}
+
+div.message-picture {
+    width: 300px;
+    height: 350px; 
+    margin: 40px; 
+}
+
+div.message-picture:hover {
+    border: 1.5px solid  #9D538E;
+}
+
+div.picture:hover {
+    border: 1.5px solid  #9D538E;
+}
+
+div.picture img {
+    width: 200px;
+    height: 400px;
+}
+
+div.message-picture img {
+    width: 300px;
+    height: 350px;
+}
+
+div.picture p {
+    text-align: center;
+    font-weight: bold;
+}
+
+div.message-picture p {
+    text-align: center;
+    font-weight: bold;
+}
+
+div p.picture-desc {
+    height: 400px;
+    width: 200px;
+    margin: 40px;
+    line-height: 2em;
+}
+
+
+#company-copy {
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+section h2.pictitle {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+section#aboutDesc {
+    text-align: center;
+}
+
+section#aboutDesc h2 {
+    padding-top: 20px;
+}
+
+section#aboutDesc p {
+    text-align: left;
+    line-height: 2em;
+    padding-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+section.qanda {
+    text-align: center;
+    margin-right: 310px;
+    margin-left: 310px;
+    padding-top: 20px;
+}
+
+section.qanda h2 {
+    text-align: left;
+}
+
+section.qanda p {
+    text-align: left;
+    line-height: 2em;
+}
+
+a#btot {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 980px;
+}
+
+footer ul {
+    margin-top: 50px;
+}
